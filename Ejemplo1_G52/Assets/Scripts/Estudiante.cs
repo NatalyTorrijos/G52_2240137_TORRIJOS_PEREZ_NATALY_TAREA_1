@@ -2,13 +2,13 @@ using UnityEngine;
 using System;
 using PackagePersona;
 
-namespace PackageEstudiante
+namespace PackagePersona
 {
     [Serializable]
     public class Estudiante:Persona
     {
-        private string codeE;
-        private string nameCarreraE;
+        public string codeE;
+        public string nameCarreraE;
 
         public Estudiante()
         {

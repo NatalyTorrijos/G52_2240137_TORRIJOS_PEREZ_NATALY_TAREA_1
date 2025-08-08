@@ -7,9 +7,9 @@ namespace PackagePersona
     public class Persona
     {
 
-        private string nameP;
-        private string mailP;
-        private string dirP;
+        public string nameP;
+        public string mailP;
+        public string dirP;
 
         public Persona()
         {
